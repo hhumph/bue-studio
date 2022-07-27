@@ -1,6 +1,6 @@
 export default {
-  name: "coach",
-  title: "Coach",
+  name: "page",
+  title: "Page",
   type: "document",
   fields: [
     {
@@ -26,8 +26,8 @@ export default {
       },
     },
     {
-      name: "bio",
-      title: "Bio",
+      name: "body",
+      title: "Body",
       type: "array",
       of: [
         {

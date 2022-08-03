@@ -26,6 +26,19 @@ export default {
       },
     },
     {
+      name: "header",
+      title: "Header",
+      type: "array",
+      of: [
+        {
+          title: "Block",
+          type: "block",
+          styles: [{ title: "Normal", value: "normal" }],
+          lists: [],
+        },
+      ],
+    },
+    {
       name: "body",
       title: "Body",
       type: "array",
